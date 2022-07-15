@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "/style/style.css";/>
+
+    <!-- FONT AWESOME / ICONS -->
+    <script src="https://kit.fontawesome.com/7d7c5b6044.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="/index.html"><img src="/Media/logo-slad.png" alt="Shine Like a Diamond" class="logo"></a>
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="/index.html">Home</a></li>
+                <li class="nav-list-item"><a href="/pages/catalogue.html">Catalogue</a>
+                    <ul class="nav-sublist">
+                        <li class="nav-sublist-item">Earrings</li>
+                        <li class="nav-sublist-item">Necklaces</li>
+                        <li class="nav-sublist-item">Rings</li>
+                        <li class="nav-sublist-item">Pendants</li>
+                    </ul>
+                </li>
+                <li class="nav-list-item"><a href="/pages/contact.html">Contact us!</a></li>
+            </ul>
+            <a href="/pages/cart.html"><i class="fa-solid fa-cart-shopping fa-xl cart"></i></a>
+        </nav>
+    </header>
+    <main>
+        <form action="post" class="form">
+            <label for="name">Name:</label>
+            <input type="text" required>
+            <label for="email">email:</label>
+            <input type="email" required>
+            <label for="number">Phone number:</label>
+            <input type="number">
+            <label for="comment">Write your question!</label>
+            <input type="text" required maxlength="500" size="60">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+
+        </form>
+    </main>
+    <footer>Derechos Reservados 2022</footer>
+
+    <script src= "/App/items.js"></script>
+    <script src= "/App/app.js"></script>
+</body>
+</html>

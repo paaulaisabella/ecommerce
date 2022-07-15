@@ -1,0 +1,31 @@
+// COLORS
+
+$dark_brown: #744c24;
+$medium_brown1: #8e5431;
+$medium_brown2: #9b6b43;
+$clear_brown: #efcead;
+$cream: #f3e3d3;
+$dark: #172321;
+$base: #d8ac87;
+$green: #8ebba7;
+
+//FONTS
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+$main_font: 'Raleway', sans-serif;
+
+/* PAGE RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
